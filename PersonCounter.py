@@ -5,7 +5,7 @@ import cv2
 import winsound
 import imutils
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture("video.mp4")
 
 #MOG2 kusurlu ama her platformda calisiyor.
 fgbg = cv2.createBackgroundSubtractorMOG2(history=140, varThreshold=250)
